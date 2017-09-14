@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Adding request to request queue
-        MySingleton.getInstance().addToRequestQueue(billionaireReq);
+        MySingleton.getInstance(MainActivity.this).addToRequestQueue(billionaireReq);
     }
 
     @Override
