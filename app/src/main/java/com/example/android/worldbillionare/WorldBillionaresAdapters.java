@@ -51,7 +51,7 @@ Billionares currentWord = getItem(position);
         TextView source = (TextView) convertView.findViewById(R.id.source);
         TextView year = (TextView) convertView.findViewById(R.id.inYear);
 
-TextView textView;
+
 
         name.setText(currentWord.getName());
         worth.setText(currentWord.getWorth());
