@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                                 worldBillionaresAdapters.clear();
 
                                 worldBillionaresAdapters.addAll(billionare);
-                           //     worldBillionaresAdapters.notifyDataSetChanged();
+                                worldBillionaresAdapters.notifyDataSetChanged();
 
 
                             } catch (JSONException e) {
